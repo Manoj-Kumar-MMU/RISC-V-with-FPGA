@@ -1,0 +1,165 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.1.0 Build 162 10/23/2013 SJ Full Version
+# Date created = 12:15:01  March 26, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		update_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE EP4CGX150DF31C7
+set_global_assignment -name TOP_LEVEL_ENTITY neorv32_top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:15:01  MARCH 26, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 13.1
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "2.5 V"
+set_location_assignment PIN_AJ16 -to clk_i
+set_location_assignment PIN_AA26 -to rstn_i
+set_location_assignment PIN_K21 -to uart0_rxd_i
+set_location_assignment PIN_K22 -to uart0_txd_o
+set_location_assignment PIN_AA25 -to gpio_o[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to uart0_rxd_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to uart0_txd_o
+set_global_assignment -name VHDL_FILE rtl/core/mem/neorv32_imem.default.vhd
+set_global_assignment -name VHDL_FILE rtl/core/mem/neorv32_dmem.default.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_xirq.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_xip.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_xbus.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_wdt.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_uart.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_twi.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_trng.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_top.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_sysinfo.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_spi.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_slink.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_sdi.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_pwm.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_package.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_onewire.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_neoled.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_mtime.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_intercon.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_imem.entity.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_gptmr.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_gpio.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_fifo.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_dmem.entity.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_dma.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_debug_dtm.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_debug_dm.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_crc.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_regfile.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_pmp.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_lsu.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_decompressor.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_shifter.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_muldiv.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_fpu.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_cond.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_cfu.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_cp_bitmanip.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_control.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu_alu.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cpu.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_clockgate.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cfs.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_cache.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_bootloader_image.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_boot_rom.vhd
+set_global_assignment -name VHDL_FILE rtl/core/neorv32_application_image.vhd
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_location_assignment PIN_F17 -to uart1_rxd_i
+set_location_assignment PIN_F18 -to uart1_txd_o
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to uart1_rxd_i
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to uart1_txd_o
+set_location_assignment PIN_D24 -to pwm_o[0]
+set_location_assignment PIN_D28 -to pwm_o[1]
+set_location_assignment PIN_F23 -to pwm_o[2]
+set_location_assignment PIN_G24 -to pwm_o[3]
+set_location_assignment PIN_D21 -to gpio_o[1]
+set_location_assignment PIN_C25 -to gpio_o[2]
+set_location_assignment PIN_F20 -to gpio_o[3]
+set_location_assignment PIN_F22 -to gpio_o[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_o[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_o[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_o[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_o[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to pwm_o[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to pwm_o[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to pwm_o[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to pwm_o[3]
+set_location_assignment PIN_G16 -to cfs_in_i[1]
+set_location_assignment PIN_D19 -to cfs_in_i[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[0]
+set_location_assignment PIN_B28 -to cfs_in_i[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[2]
+set_location_assignment PIN_D22 -to cfs_in_i[3]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[3]
+set_location_assignment PIN_G20 -to cfs_in_i[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[4]
+set_location_assignment PIN_D25 -to cfs_in_i[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[5]
+set_location_assignment PIN_A28 -to cfs_in_i[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[6]
+set_location_assignment PIN_G23 -to cfs_in_i[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to cfs_in_i[7]
+set_location_assignment PIN_F19 -to gpio_i[0]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[0]
+set_location_assignment PIN_D18 -to gpio_i[1]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[1]
+set_location_assignment PIN_C26 -to gpio_i[2]
+set_location_assignment PIN_D23 -to gpio_i[3]
+set_location_assignment PIN_G22 -to gpio_i[4]
+set_location_assignment PIN_E21 -to gpio_i[5]
+set_location_assignment PIN_B30 -to gpio_i[6]
+set_location_assignment PIN_A26 -to gpio_i[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[2]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[7]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[6]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[5]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[4]
+set_instance_assignment -name IO_STANDARD "3.3-V LVCMOS" -to gpio_i[3]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

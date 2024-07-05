@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="update">
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:data_mem_b0_rtl_0" CBX_FILE_NAME="altsyncram_8g81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_alu:neorv32_cpu_alu_inst|neorv32_cpu_cp_fpu:\neorv32_cpu_cp_fpu_inst_true:neorv32_cpu_cp_fpu_inst|lpm_mult:Mult0" CBX_FILE_NAME="mult_5ht.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_regfile:neorv32_cpu_regfile_inst|altsyncram:reg_file[0][31]__2" CBX_FILE_NAME="altsyncram_80h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:data_mem_b1_rtl_0" CBX_FILE_NAME="altsyncram_8g81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:tag_mem_rtl_0" CBX_FILE_NAME="altsyncram_rf81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_regfile:neorv32_cpu_regfile_inst|altsyncram:reg_file[0][31]__3" CBX_FILE_NAME="altsyncram_80h1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_dmem:\memory_system:neorv32_int_dmem_inst_true:neorv32_int_dmem_inst|altsyncram:mem_ram_b2_rtl_0" CBX_FILE_NAME="altsyncram_bj81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_imem:\memory_system:neorv32_int_imem_inst_true:neorv32_int_imem_inst|altsyncram:Mux0_rtl_0" CBX_FILE_NAME="altsyncram_o401.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:data_mem_b2_rtl_0" CBX_FILE_NAME="altsyncram_8g81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_alu:neorv32_cpu_alu_inst|neorv32_cpu_cp_muldiv:\neorv32_cpu_cp_muldiv_inst_true:neorv32_cpu_cp_muldiv_inst|lpm_mult:Mult0" CBX_FILE_NAME="mult_2at.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_dmem:\memory_system:neorv32_int_dmem_inst_true:neorv32_int_dmem_inst|altsyncram:mem_ram_b3_rtl_0" CBX_FILE_NAME="altsyncram_bj81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:data_mem_b3_rtl_0" CBX_FILE_NAME="altsyncram_8g81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cache:\core_complex:neorv32_icache_inst_true:neorv32_icache_inst|neorv32_cache_memory:neorv32_cache_memory_inst|altsyncram:stat_mem[0]__4" CBX_FILE_NAME="altsyncram_1g81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_regfile:neorv32_cpu_regfile_inst|altsyncram:reg_file[0][31]__1" CBX_FILE_NAME="altsyncram_qf81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_dmem:\memory_system:neorv32_int_dmem_inst_true:neorv32_int_dmem_inst|altsyncram:mem_ram_b0_rtl_0" CBX_FILE_NAME="altsyncram_bj81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_cpu:\core_complex:neorv32_cpu_inst|neorv32_cpu_alu:neorv32_cpu_alu_inst|neorv32_cpu_cp_fpu:\neorv32_cpu_cp_fpu_inst_true:neorv32_cpu_cp_fpu_inst|lpm_add_sub:Add5" CBX_FILE_NAME="add_sub_o3j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|neorv32_top|neorv32_dmem:\memory_system:neorv32_int_dmem_inst_true:neorv32_int_dmem_inst|altsyncram:mem_ram_b1_rtl_0" CBX_FILE_NAME="altsyncram_bj81.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

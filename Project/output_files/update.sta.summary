@@ -1,0 +1,209 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk_i'
+Slack : -9.727
+TNS   : -14771.796
+
+Type  : Slow 1200mV 85C Model Setup 'cfs_in_i[0]'
+Slack : -2.989
+TNS   : -60.294
+
+Type  : Slow 1200mV 85C Model Setup 'cfs_in_i[6]'
+Slack : -2.829
+TNS   : -55.092
+
+Type  : Slow 1200mV 85C Model Setup 'cfs_in_i[4]'
+Slack : -2.751
+TNS   : -55.778
+
+Type  : Slow 1200mV 85C Model Setup 'cfs_in_i[2]'
+Slack : -2.615
+TNS   : -51.683
+
+Type  : Slow 1200mV 85C Model Hold 'clk_i'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cfs_in_i[0]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cfs_in_i[2]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cfs_in_i[4]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'cfs_in_i[6]'
+Slack : 0.696
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'clk_i'
+Slack : -3.141
+TNS   : -7233.791
+
+Type  : Slow 1200mV 85C Model Removal 'clk_i'
+Slack : 2.974
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk_i'
+Slack : -3.000
+TNS   : -4885.956
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cfs_in_i[0]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cfs_in_i[2]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cfs_in_i[4]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cfs_in_i[6]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk_i'
+Slack : -8.657
+TNS   : -13296.400
+
+Type  : Slow 1200mV 0C Model Setup 'cfs_in_i[0]'
+Slack : -2.543
+TNS   : -49.961
+
+Type  : Slow 1200mV 0C Model Setup 'cfs_in_i[6]'
+Slack : -2.417
+TNS   : -45.796
+
+Type  : Slow 1200mV 0C Model Setup 'cfs_in_i[4]'
+Slack : -2.322
+TNS   : -45.776
+
+Type  : Slow 1200mV 0C Model Setup 'cfs_in_i[2]'
+Slack : -2.213
+TNS   : -42.532
+
+Type  : Slow 1200mV 0C Model Hold 'clk_i'
+Slack : 0.326
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cfs_in_i[0]'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cfs_in_i[2]'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cfs_in_i[4]'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'cfs_in_i[6]'
+Slack : 0.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'clk_i'
+Slack : -2.768
+TNS   : -6339.317
+
+Type  : Slow 1200mV 0C Model Removal 'clk_i'
+Slack : 2.683
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk_i'
+Slack : -3.000
+TNS   : -4877.948
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[0]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[2]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[4]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[6]'
+Slack : -3.000
+TNS   : -51.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk_i'
+Slack : -4.126
+TNS   : -5912.078
+
+Type  : Fast 1200mV 0C Model Setup 'cfs_in_i[0]'
+Slack : -0.967
+TNS   : -14.039
+
+Type  : Fast 1200mV 0C Model Setup 'cfs_in_i[6]'
+Slack : -0.894
+TNS   : -11.728
+
+Type  : Fast 1200mV 0C Model Setup 'cfs_in_i[4]'
+Slack : -0.878
+TNS   : -12.272
+
+Type  : Fast 1200mV 0C Model Setup 'cfs_in_i[2]'
+Slack : -0.797
+TNS   : -10.168
+
+Type  : Fast 1200mV 0C Model Hold 'clk_i'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cfs_in_i[0]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cfs_in_i[2]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cfs_in_i[4]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'cfs_in_i[6]'
+Slack : 0.321
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'clk_i'
+Slack : -1.783
+TNS   : -4147.212
+
+Type  : Fast 1200mV 0C Model Removal 'clk_i'
+Slack : 2.212
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk_i'
+Slack : -3.000
+TNS   : -2994.276
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[6]'
+Slack : -3.000
+TNS   : -53.675
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[2]'
+Slack : -3.000
+TNS   : -53.643
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[4]'
+Slack : -3.000
+TNS   : -52.907
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cfs_in_i[0]'
+Slack : -3.000
+TNS   : -50.999
+
+------------------------------------------------------------
